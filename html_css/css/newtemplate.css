@@ -1,0 +1,81 @@
+body
+{
+	background-color:#C087CD;
+	font-family:sans-serif;
+	font-size:12px;
+}
+#page
+{
+	margin-left:auto;
+	margin-right:auto;
+	width:975px;
+	padding-bottom:1300px;
+}
+.headbox
+{
+	margin-left:0px;
+	background-color:white;
+	border-radius:10px;
+	height:165px;
+	width:975px;
+	margin-top:15px;
+	text-align:center;
+}
+.link
+{
+	border-style:solid;
+	border-radius:5px;
+	border-width:2px;
+	border-color:#A986BD;
+	background-color:#C6ADD5;
+	padding:20px;
+	text-decoration:none;
+}
+.navbox
+{
+	position:fixed;
+	margin-top:40px;
+	margin-left:0px;
+	margin-bottom:50px;
+	width:195px;
+	height:490px;
+	background-color:white;
+	margin-top:10px;
+	border-radius:10px;
+	text-align:center;
+}
+.contbox
+{
+	position:absolute;
+	margin-left:210px;
+	width:765px;
+	height:1100px;
+	background-color:white;
+	margin-top:10px;
+	border-radius:10px;
+	text-align:center;
+}
+.footbox
+{
+	height:150px;
+	width:760px;
+	position:absolute;
+	margin-left:210px;
+	margin-top:1120px;
+	padding-bottom:20px;
+	background-color:white;
+	border-radius:20px;
+	border-spacing:10px;
+	text-align:center;
+}
+.cellstyle
+{
+	border-style:solid;
+	border-width:1px;
+	border-color:black;
+	padding:20px;
+}
+a:hover
+{
+	text-decoration:underline;
+}

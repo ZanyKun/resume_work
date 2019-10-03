@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<title>Positioned Layout Template</title>
+		<!--Add the following meta tag to remove warning - but make sure you set the coding to UTF-8 (no bom) before you save the file -->
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/> 
+		<style type="text/css">
+			#page{
+				margin-left:auto;
+				margin-right:auto;
+				width:50%;
+				position:relative;
+			}
+			.box01{
+				margin-left:5px;
+				margin-top:5px;
+				width:975px;
+				height:100px;
+				background-color:green;
+			}
+			.box02{
+				position:fixed;
+				margin-left:5px;
+				margin-top:5px;
+				width:200px;
+				height:610px;
+				background-color:yellow;	
+			}
+			.box03{
+				position:absolute;
+				margin-left:210px;
+				margin-top:5px;
+				width:475px;
+				height:610px;
+				background-color:blue;	
+			}
+			.box04{
+				position:absolute;
+				margin-left:690px;
+				margin-top:5px;
+				width:290px;
+				height:200px;
+				background-color:purple;	
+			}
+			.box05{
+				position:absolute;
+				margin-left:690px;
+				margin-top:210px;
+				width:290px;
+				height:200px;
+				background-color:pink;	
+			}
+			.box06{
+				position:absolute;
+				margin-left:690px;
+				margin-top:415px;
+				width:290px;
+				height:200px;
+				background-color:red;	
+			}
+			.box07{
+				margin-left:5px;
+				margin-top:620px;
+				width:975px;
+				height:1000px;
+				background-color:brown;
+			}
+		</style>
+
+	</head>
+	
+	<body>
+		<!--insert page data here --> 
+		<div id="page">
+			<div class="box01">This is box 1: 975wx100h</div>
+			<div class="box02">Kevin Nunez</div>
+			<div class="box03">This is box 3: 475wx610h</div>
+			<div class="box04">This is box 4: 290wx200h</div>
+			<div class="box05">This is box 5: 290wx200h</div>
+			<div class="box06">This is box 6: 290wx200h</div>
+			<div class="box07">This is box 7: 975wx50h</div>
+		</div>
+	</body>
+</html>
