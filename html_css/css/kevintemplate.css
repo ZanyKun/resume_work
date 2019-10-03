@@ -1,0 +1,134 @@
+body
+{
+	font-family:Verdana, Century Gothic, Arial;
+	font-size:12px;
+	color:#003333;
+}
+#page
+{
+	margin-left:auto;
+	margin-right:auto;
+	width:975px;
+}
+h1, h2
+{ 
+	font-family:Century Gothic;
+	width:400px; 
+	background-color:#FF3333; 
+	color:white;
+}
+th, td
+{
+	background-color:#FF3333;
+	color:white;
+	padding:5px;
+}
+.content
+{
+	z-index:0;
+	position:relative;
+	margin-top:30px;
+	margin-left:310px;
+	width:540px;
+	height:800px;
+	background-color:white;
+	border-style:double;
+	border-width:10px;
+	border-radius:5px;
+	border-color:#FF3333;
+	padding:20px;
+}
+.mainnav
+{
+	z-index:0;
+	position:fixed;
+	margin-top:260px;
+	margin-left:80px;
+	margin-right:30px;
+	width:160px;
+	height:400px;
+	padding:15px;
+	background-color:white;
+	border-style:double;
+	border-width:10px;
+	border-color:#FF3333;
+	border-radius:5px;
+}
+.footer
+{
+	z-index:0;
+	position:relative;
+	margin-top:30px;
+	margin-bottom:50px;
+	margin-left:310px;
+	width:540px;
+	height:280px;
+	background-color:white;
+	border-style:double;
+	border-width:10px;
+	border-color:#FF3333;
+	padding:20px;
+	border-radius:5px;
+}
+.logobox
+{
+	z-index:1;
+	position:fixed;
+	margin-top:0px;
+	margin-left:80px;
+	background-color:white;
+	border-style:solid;
+	border-color:#FF3333;
+	border-radius:5px;
+	width:220px;
+	height:200px;
+	padding:15px;
+}	
+a:link {
+    text-decoration: none;
+	color:#003333;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+.homelink { margin-left:auto; margin-right:auto; margin-bottom:15px; width:120px; background-color:#FF3333; font-size:12px; text-align:center; padding:10px; font-family:Arial; font-size:14px;}
+.homelink a{ text-decoration:none;} 
+.homelink:hover{ background-color:blue;} 
+
+.actionlink { margin-left:auto; margin-right:auto; margin-bottom:15px; width:120px; background-color:#FF3333; font-size:12px; text-align:center; padding:10px; font-family:Arial; font-size:14px;}
+.actionlink a{ text-decoration:none;} 
+.actionlink:hover{ background-color:blue;} 
+
+.adventurelink { margin-left:auto; margin-right:auto; margin-bottom:15px; width:120px; background-color:#FF3333; font-size:12px; text-align:center; padding:10px; font-family:Arial; font-size:14px;}
+.adventurelink a{ text-decoration:none;} 
+.adventurelink:hover{ background-color:blue;}
+
+.comedylink { margin-left:auto; margin-right:auto; margin-bottom:15px; width:120px; background-color:#FF3333; font-size:12px; text-align:center; padding:10px; font-family:Arial; font-size:14px;}
+.comedylink a{ text-decoration:none;} 
+.comedylink:hover{ background-color:blue;} 
+
+.dramalink { margin-left:auto; margin-right:auto; margin-bottom:15px; width:120px; background-color:#FF3333; font-size:12px; text-align:center; padding:10px; font-family:Arial; font-size:14px;}
+.dramalink a{ text-decoration:none;} 
+.dramalink:hover{ background-color:blue;}
+
+.romancelink { margin-left:auto; margin-right:auto; margin-bottom:15px; width:120px; background-color:#FF3333; font-size:12px; text-align:center; padding:10px; font-family:Arial; font-size:14px;}
+.romancelink a{ text-decoration:none;} 
+.romancelink:hover{ background-color:blue;}
+
+.contactlink { margin-left:auto; margin-right:auto; margin-bottom:15px; width:120px; background-color:#FF3333; font-size:12px; text-align:center; padding:10px; font-family:Arial; font-size:14px;}
+.contactlink a{ text-decoration:none;} 
+.contactlink:hover{ background-color:blue;}
+
+.sitemaplink { margin-left:auto; margin-right:auto; margin-bottom:15px; width:120px; background-color:#FF3333; font-size:12px; text-align:center; padding:10px; font-family:Arial; font-size:14px;}
+.sitemaplink a{ text-decoration:none;} 
+.sitemaplink:hover{ background-color:blue;}
